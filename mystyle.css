@@ -1,5 +1,7 @@
 body {
     background-image: url("bg_mountain.jpg")
+background-size: cover;
+  position: relative;
   }
   
   h1 {
