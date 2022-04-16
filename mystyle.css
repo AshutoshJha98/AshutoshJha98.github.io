@@ -1,8 +1,13 @@
 body {
-    background-color: lightblue;
+    background-image: url("bg_mountain.jpg")
   }
   
   h1 {
-    color: navy;
+    color: rgb(0, 47, 92);
+    margin-left: 20px;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.7);
     margin-left: 20px;
   }
