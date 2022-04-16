@@ -1,14 +1,68 @@
-body {
-    background-image: url("bg_mountain.jpg")
-  }
-  
-  h1 {
-    color: rgb(0, 47, 92);
-    text-shadow: 2px 2px 5px rgba(0 0 0 0.7);
-    margin-left: 20px;
-  }
+@font-face 
+{
+  font-family: 'Roboto-Thin';
+  src: url(fonts/Roboto-Thin.ttf);
+}
+@font-face 
+{
+  font-family: 'Roboto-Regular';
+  src: url(fonts/Roboto-Regular.ttf);
+}
 
-  p {
-    color: rgba(255, 255, 255, 0.7);
-    margin-left: 20px;
-  }
+body
+{
+  /*background-image: url("bg_mountain.jpg"); */
+  background-image: linear-gradient(180deg, #e19ab4, #ae76a9, #6456a2, #283078, #1f255a, #010414);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+h1
+{
+  font-family: Roboto-Thin;
+  color: rgb(0, 47, 92);
+  text-shadow: 1px 1px 4px #00000088;
+  margin-left: 20px;
+}
+
+p
+{
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 20px;
+}
+
+ul
+{
+  font-family: Roboto-Regular;
+  font-size: 30px;
+  list-style-type: None;
+  margin: 0px;
+  padding: 1px;
+  width: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+li
+{
+  display: inline;
+}
+
+li a 
+{
+  padding: 5px 5px;
+  color: #010414;
+  text-decoration: none;
+}
+
+li a.active
+{
+  background-color: #010414;
+  color: #e19ab4;
+}
+
+li a:hover:not(.active)
+{
+  color: #283078;
+}
+
