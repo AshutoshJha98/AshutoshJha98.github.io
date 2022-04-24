@@ -8,61 +8,145 @@
   font-family: 'Roboto-Regular';
   src: url(fonts/Roboto-Regular.ttf);
 }
+@font-face 
+{
+  font-family: 'Roboto-Light';
+  src: url(fonts/Roboto-Light.ttf);
+}
 
 body
 {
-  /*background-image: url("bg_mountain.jpg"); */
-  background-image: linear-gradient(180deg, #e19ab4, #ae76a9, #6456a2, #283078, #1f255a, #010414);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-  
-h1
-{
-  font-family: Roboto-Thin;
-  color: rgb(0, 47, 92);
-  text-shadow: 1px 1px 4px #00000088;
-  margin-left: 20px;
-}
-
-p
-{
-  color: #ffffff;
-  margin-left: 20px;
+  margin: 0px;
+  background-color: #fbfbfd ;
+  min-height: 100%;
 }
 
 ul
 {
-  font-family: Roboto-Regular;
-  font-size: 20px;
-  list-style-type: None;
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+  list-style-type: none;
   margin: 0px;
-  padding: 1px;
+  padding: 0px;
   width: auto;
   overflow: hidden;
   text-align: center;
+  background-color: #313132;
 }
 
 li
 {
-  display: inline;
+  display: inline-block;
 }
 
 li a 
 {
+  display: block;
   padding: 5px 5px;
-  color: #010414;
+  margin: 5px 5px;
+  color: #d6d6d6;
   text-decoration: none;
 }
 
-li a.active
+.desig_span
 {
-  background-color: #010414;
-  color: #e19ab4;
+color: #1d297a;
+font-size: 0.75em;
 }
 
-li a:hover:not(.active)
+.hero_image
 {
-  color: #283078;
+  background-image: url("hero_image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 20em;
+  width: 20em;
+  top: 10%;
+  right: 15%;
+  transition-duration: 300ms;
 }
 
+.hero_image:hover
+{
+  transform: scale(105%, 105%);
+  filter: drop-shadow(5px 1px 4px #1d1d1f);
+}
+
+.hero_text
+{
+  font-family: "Roboto-Light";
+  font-size: 1.5em;
+  color: #1d1d1f;
+  text-align: left;
+  position: absolute;
+  top: 22%;
+  left: 17%;
+}
+
+@media screen and (max-width: 1040px) and (min-width: 900px)
+{
+
+.hero_image
+{
+  height: 20em;
+  width: 20em;
+  top: 10%;
+  right: 7%;
+  transition-duration: 300ms;
+}
+.hero_text
+{
+  font-size: 1.5em;
+  top: 18%;
+  left: 7%;
+}
+
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 525px)
+{
+
+.hero_image
+{
+  height: 10em;
+  width: 10em;
+  top: 10%;
+  right: 7%;
+  transition-duration: 300ms;
+}
+.hero_text
+{
+  font-size: 1em;
+  top: 12%;
+  left: 7%;
+}
+
+}
+
+
+
+@media screen and (max-width: 525px)
+{
+
+.hero_image
+{
+  display: block;
+  position: fixed;
+  height: 7em;
+  width: 50%;
+  top: 7%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition-duration: 300ms;
+}
+.hero_text
+{
+  font-size: 0.7em;
+  top: 30%;
+  text-align: center;
+}
+
+}
