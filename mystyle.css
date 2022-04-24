@@ -76,15 +76,15 @@ font-size: 0.75em;
 .hero_text
 {
   font-family: "Roboto-Light";
-  font-size: 1.5em;
+  font-size: 2.5vw;
   color: #1d1d1f;
   text-align: left;
   position: absolute;
-  top: 22%;
+  top: 17%;
   left: 17%;
 }
 
-@media screen and (max-width: 1040px) and (min-width: 900px)
+@media screen and (max-width: 1181px) and (min-width: 900px)
 {
 
 .hero_image
@@ -105,21 +105,21 @@ font-size: 0.75em;
 }
 
 
-@media screen and (max-width: 900px) and (min-width: 525px)
+@media screen and (max-width: 899px) and (min-width: 680px)
 {
 
 .hero_image
 {
-  height: 10em;
-  width: 10em;
+  height: 35%;
+  width: 35%;
   top: 10%;
   right: 7%;
   transition-duration: 300ms;
 }
 .hero_text
 {
-  font-size: 1em;
-  top: 12%;
+  font-size: 3.5vw;
+  top: 13%;
   left: 7%;
 }
 
@@ -127,25 +127,44 @@ font-size: 0.75em;
 
 
 
-@media screen and (max-width: 525px)
+@media screen and (max-width: 679px) and (min-width: 427px)
 {
 
 .hero_image
 {
-  display: block;
-  position: fixed;
-  height: 7em;
-  width: 50%;
-  top: 7%;
-  left: 0;
-  right: 0;
-  margin: auto;
+  height: 30%;
+  width: 30%;
+  top: 10%;
+  right: 7%;
   transition-duration: 300ms;
 }
 .hero_text
 {
-  font-size: 0.7em;
-  top: 30%;
+  font-size: 3.5vw;
+  top: 10%;
+  left: 7%;
+}
+
+}
+
+
+
+@media screen and (max-width: 426px)
+{
+
+.hero_image
+{
+  height: 50%;
+  width: 50%;
+  top: 18vw;
+  right: 33%;
+  left: 25%;
+}
+.hero_text
+{
+  font-size: 4vw;
+  top: 58vw;
+  right: 3.5em;
   text-align: center;
 }
 
