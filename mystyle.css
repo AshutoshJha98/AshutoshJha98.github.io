@@ -1,3 +1,7 @@
+:root {
+  --scroll_icon_top: 32vw;
+}
+
 @font-face 
 {
   font-family: 'Roboto-Thin';
@@ -84,6 +88,39 @@ font-size: 0.75em;
   left: 15vw;
 }
 
+.intro_lines
+{
+  font-family: "Roboto-Light";
+  font-size: 1.3vw;
+  color: #1d1d1f;
+  text-align: left;
+  position: absolute;
+  top: 24vw;
+  left: 15vw;
+  right: 55vw;
+}
+
+.scroll_down
+{
+  font-family: "Roboto-Light";
+  color: #1d1d1f;
+  position: absolute;
+  top: var(--scroll_icon_top);
+  left: 50vw;
+  right: 50vw;
+  animation-name: size_breath_in_out;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes size_breath_in_out
+{
+  0% {font-size: 2vw;}
+  50% {font-size: 3.5vw; color: #8d0e05;top: 37vw;}
+  100% {font-size: 2vw;}
+}
+
+
 @media screen and (max-width: 800px) and (min-width: 427px)
 {
 
@@ -99,6 +136,27 @@ font-size: 0.75em;
   font-size: 2.5vw;
   top: 14vw;
   left: 15vw;
+}
+
+.intro_lines
+{
+  top: 32vw;
+  left: 15vw;
+  right: 55vw;
+}
+
+.scroll_down
+{
+  top: calc(var(--scroll_icon_top) + 7vw);
+  left: 50vw;
+  right: 50vw;
+}
+
+@keyframes size_breath_in_out
+{
+  0% {font-size: 2vw;}
+  50% {font-size: 3.5vw; color: #8d0e05;top: calc(var(--scroll_icon_top) + 12vw);}
+  100% {font-size: 2vw;}
 }
 
 }
@@ -166,6 +224,29 @@ font-size: 0.75em;
   left: 1vw;
   right: 1vw;
   text-align: center;
+}
+
+.intro_lines
+{
+  text-align: center;
+  font-size: 3.5vw;
+  top: 90vw;
+  left: 10vw;
+  right: 10vw;
+}
+
+.scroll_down
+{
+  top: calc(115vw);
+  left: 50vw;
+  right: 50vw;
+}
+
+@keyframes size_breath_in_out
+{
+  0% {font-size: 3vw;}
+  50% {font-size: 4.5vw; color: #8d0e05;top: calc(115vw + 13vw);}
+  100% {font-size: 3vw;}
 }
 
 }
