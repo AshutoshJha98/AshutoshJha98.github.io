@@ -237,16 +237,16 @@ font-size: 0.75em;
 
 .scroll_down
 {
-  top: calc(115vw);
+  top: calc(130vw);
   left: 50vw;
   right: 50vw;
 }
 
 @keyframes size_breath_in_out
 {
-  0% {font-size: 5vw;}
-  50% {font-size: 7.5vw; color: #8d0e05;top: calc(115vw + 13vw);}
-  100% {font-size: 5vw;}
+  0% {font-size: 6vw;}
+  50% {font-size: 8.5vw; color: #8d0e05;top: calc(130vw + 13vw);}
+  100% {font-size: 6vw;}
 }
 
 }
