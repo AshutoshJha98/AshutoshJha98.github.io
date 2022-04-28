@@ -229,7 +229,7 @@ font-size: 0.75em;
 .intro_lines
 {
   text-align: center;
-  font-size: 3.5vw;
+  font-size: 4.5vw;
   top: 90vw;
   left: 10vw;
   right: 10vw;
@@ -244,9 +244,9 @@ font-size: 0.75em;
 
 @keyframes size_breath_in_out
 {
-  0% {font-size: 3vw;}
-  50% {font-size: 4.5vw; color: #8d0e05;top: calc(115vw + 13vw);}
-  100% {font-size: 3vw;}
+  0% {font-size: 5vw;}
+  50% {font-size: 7.5vw; color: #8d0e05;top: calc(115vw + 13vw);}
+  100% {font-size: 5vw;}
 }
 
 }
