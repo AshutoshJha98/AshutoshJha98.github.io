@@ -64,14 +64,14 @@ font-size: 0.75em;
   width: 20vw;
   top: 7vw;
   right: 15vw;
-  transition-duration: 300ms;
+  /*transition-duration: 300ms;*/
 }
 
-.hero_image:hover
+/*.hero_image:hover
 {
   transform: scale(105%, 105%);
   filter: drop-shadow(5px 1px 4px #1d1d1f);
-}
+}*/
 
 .hero_text
 {
