@@ -50,8 +50,9 @@ li a
 
 .desig_span
 {
-color: #1d297a;
-font-size: 0.75em;
+  font-family: "Roboto-Thin";
+  color: #1d297a;
+  font-size: 1.7vw;
 }
 
 .hero_image
@@ -79,8 +80,8 @@ font-size: 0.75em;
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  height: 2.1vw;
-  width: 2.1vw;
+  height: 2.5vw;
+  width: 2.5vw;
   top: 28vw;
   right: 27vw;
 }
@@ -151,17 +152,44 @@ font-size: 0.75em;
   top: 1vw;
 }
 
+.double_quote_start
+{
+  font-family:Roboto-Regular;
+  color: #d6d6d6;
+  font-size: 8vw;
+  text-align: left;
+  position: absolute;
+  top: 4vw;
+  right: 40vw;
+  left: 5vw;
+}
 
-.text_review_1
+.double_quote_end
+{
+  font-family:Roboto-Regular;
+  color: #d6d6d6;
+  font-size: 8vw;
+  text-align: left;
+  position: absolute;
+  top: 16vw;
+  left: 60vw;
+}
+
+.text_review
 {
   font-family: "Roboto-Light";
   color: #d6d6d6;
   font-size: 2vw;
   text-align: left;
   position: absolute;
-  top: 8vw;
+  top: 9vw;
   right: 40vw;
   left: 10vw;
+}
+
+.exp_box
+{
+  position: absolute;
 }
 
 
@@ -178,8 +206,8 @@ font-size: 0.75em;
 
 .linkedin_icon
 {
-  height: 2.1vw;
-  width: 2.1vw;
+  height: 3vw;
+  width: 3vw;
   top: 37vw;
   right: 30vw;
 }
@@ -200,7 +228,7 @@ font-size: 0.75em;
 
 .scroll_down
 {
-  top: calc(32vw + 7vw);
+  top: 39vw;
   left: 50vw;
   right: 50vw;
 }
@@ -294,13 +322,13 @@ font-size: 0.75em;
 {
   height: 7vw;
   width: 7vw;
-  top: 125vw;
+  top: 127vw;
   right: 60vw;
 }
 
 .scroll_down
 {
-  top: 133vw;
+  top: 135vw;
   left: 50vw;
   right: 50vw;
 }
@@ -308,7 +336,7 @@ font-size: 0.75em;
 @keyframes size_breath_in_out
 {
   0% {font-size: 6vw;}
-  50% {font-size: 8.5vw; color: #8d0e05;top: calc(133vw + 15vw);}
+  50% {font-size: 8.5vw; color: #8d0e05;top: calc(135vw + 15vw);}
   100% {font-size: 6vw;}
 }
 
