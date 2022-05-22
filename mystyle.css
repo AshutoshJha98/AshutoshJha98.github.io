@@ -73,6 +73,18 @@ font-size: 0.75em;
   filter: drop-shadow(5px 1px 4px #1d1d1f);
 }*/
 
+.linkedin_icon
+{
+  background-image: url("linkedin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 2.1vw;
+  width: 2.1vw;
+  top: 28vw;
+  right: 27vw;
+}
+
 .hero_text
 {
   font-family: "Roboto-Light";
@@ -163,6 +175,15 @@ font-size: 0.75em;
   top: 12vw;
   right: 15vw;
 }
+
+.linkedin_icon
+{
+  height: 2.1vw;
+  width: 2.1vw;
+  top: 37vw;
+  right: 30vw;
+}
+
 .hero_text
 {
   font-size: 2.5vw;
@@ -249,6 +270,8 @@ font-size: 0.75em;
   right: 33vw;
   left: 25vw;
 }
+
+
 .hero_text
 {
   font-size: 3.5vw;
@@ -267,9 +290,17 @@ font-size: 0.75em;
   right: 10vw;
 }
 
+.linkedin_icon
+{
+  height: 7vw;
+  width: 7vw;
+  top: 125vw;
+  right: 60vw;
+}
+
 .scroll_down
 {
-  top: calc(130vw);
+  top: 133vw;
   left: 50vw;
   right: 50vw;
 }
@@ -277,7 +308,7 @@ font-size: 0.75em;
 @keyframes size_breath_in_out
 {
   0% {font-size: 6vw;}
-  50% {font-size: 8.5vw; color: #8d0e05;top: calc(130vw + 13vw);}
+  50% {font-size: 8.5vw; color: #8d0e05;top: calc(133vw + 15vw);}
   100% {font-size: 6vw;}
 }
 
