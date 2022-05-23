@@ -83,7 +83,7 @@ li a
   height: 2.5vw;
   width: 2.5vw;
   top: 28vw;
-  right: 27vw;
+  right: 23vw;
 }
 
 .hero_text
@@ -187,10 +187,7 @@ li a
   left: 10vw;
 }
 
-.exp_box
-{
-  position: absolute;
-}
+
 
 
 @media screen and (max-width: 800px) and (min-width: 427px)
@@ -209,7 +206,7 @@ li a
   height: 3vw;
   width: 3vw;
   top: 37vw;
-  right: 30vw;
+  right: 2vw;
 }
 
 .hero_text
@@ -223,7 +220,7 @@ li a
 {
   top: 32vw;
   left: 15vw;
-  right: 55vw;
+  right: 25vw;
 }
 
 .scroll_down
@@ -323,7 +320,8 @@ li a
   height: 7vw;
   width: 7vw;
   top: 127vw;
-  right: 60vw;
+  right: 50vw;
+  left: 48.5vw;
 }
 
 .scroll_down
