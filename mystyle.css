@@ -83,7 +83,19 @@ li a
   height: 2.5vw;
   width: 2.5vw;
   top: 28vw;
-  right: 23vw;
+  right: 20.5vw;
+}
+
+.email_icon
+{
+  background-image: url("email_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 2.5vw;
+  width: 2.5vw;
+  top: 28vw;
+  right: 25vw;
 }
 
 .hero_text
@@ -321,7 +333,16 @@ li a
   width: 7vw;
   top: 127vw;
   right: 50vw;
-  left: 48.5vw;
+  left: 55vw;
+}
+
+.email_icon
+{
+  height: 7vw;
+  width: 7vw;
+  top: 127vw;
+  right: 50vw;
+  left: 40vw;
 }
 
 .scroll_down
