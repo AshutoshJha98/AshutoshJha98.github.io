@@ -57,12 +57,12 @@ li a
 {
   font-family: "Roboto-Thin";
   color: #1d297a;
-  font-size: 1.7vw;
+  font-size: 2vw;
 }
 
 .hero_image
 {
-  background-image: url("hero_image.png");
+  background-image: url("hero_image.avif");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -81,7 +81,7 @@ li a
 
 .linkedin_icon
 {
-  background-image: url("linkedin.png");
+  background-image: url("linkedin_icon.png");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -106,7 +106,7 @@ li a
 .hero_text
 {
   font-family: "Roboto-Light";
-  font-size: 2vw;
+  font-size: 2.3vw;
   color: #1d1d1f;
   text-align: left;
   position: absolute;
@@ -148,12 +148,13 @@ li a
 
 .reviews_section
 {
-  background-image: linear-gradient(to right, #0E1F2E,#0E1F2E,#1C425D,#3A6B8C,#5A798F);
-  top: 100%;
+  /*background-image: linear-gradient(to right, #0E1F2E,#0E1F2E,#1C425D,#3A6B8C,#5A798F);
+  */background-image: url("reveiw_section_wave.svg");
+  top: 90vh;
   width: 100%;
-  height: 25vw;
+  height: 30vw;
   position: absolute;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -165,7 +166,7 @@ li a
   width: 23vw;
   height: 23vw;
   right: 0;
-  top: 1vw;
+  top: 5vw;
 }
 
 .double_quote_start
@@ -175,7 +176,7 @@ li a
   font-size: 8vw;
   text-align: left;
   position: absolute;
-  top: 4vw;
+  top: 5vw;
   right: 40vw;
   left: 5vw;
 }
@@ -187,7 +188,7 @@ li a
   font-size: 8vw;
   text-align: left;
   position: absolute;
-  top: 18vw;
+  top: 21vw;
   left: 60vw;
 }
 
@@ -203,6 +204,15 @@ li a
   left: 10vw;
 }
 
+
+
+.brief_exp
+{
+  position: absolute;
+  text-align: left;
+  top: calc(100% + 27vw);
+  left: 2vw;
+}
 
 
 
@@ -232,11 +242,27 @@ li a
   left: 15vw;
 }
 
+.linkedin_icon
+{
+  height: 2.6vw;
+  width: 2.6vw;
+  top: 36vw;
+  right: 23vw;
+}
+
+.email_icon
+{
+  height: 2.5vw;
+  width: 2.5vw;
+  top: 36vw;
+  right: 28vw;
+}
+
 .intro_lines
 {
-  top: 32vw;
+  top: 30vw;
   left: 15vw;
-  right: 25vw;
+  right: 55vw;
 }
 
 .scroll_down
