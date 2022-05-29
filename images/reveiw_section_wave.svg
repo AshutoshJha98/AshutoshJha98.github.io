@@ -4,9 +4,17 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="1920.000000pt" height="593.000000pt" viewBox="0 0 1920.000000 593.000000"
  preserveAspectRatio="xMidYMid meet">
+<defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="-10%">
+      <stop offset="0%" style="stop-color:#0E1F2E;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#1C425D;stop-opacity:1" />
+      <stop offset="85%" style="stop-color:#3A6B8C;stop-opacity:1" />
+      <stop offset="97%" style="stop-color:#5A798F;stop-opacity:1" />
+    </linearGradient>
+</defs>
 
 <g transform="translate(0.000000,593.000000) scale(0.100000,-0.100000)"
-fill="#1C425D" stroke="none">
+fill="url(#grad1)" stroke="none">
 <path d="M2590 5863 c-456 -9 -1343 -50 -2128 -98 -221 -14 -416 -25 -432 -25
 l-30 0 0 -2719 0 -2719 163 -6 c297 -10 1452 -28 2242 -35 1390 -11 2831 12
 4290 69 1982 77 2657 65 4110 -75 549 -53 771 -73 990 -90 306 -23 341 -25
