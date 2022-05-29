@@ -1,7 +1,7 @@
 const review_texts = ["He elevated the performance of the team and product with a Data-Driven Approach. He was a quick learner, open to listening and doing experiments.<br><br><span style='bottom:-3vw;position:absolute;right:0vw;font-size:1.7vw;font-family:Roboto-LightItalic'>- Mayank Singh</span>",
                         "He was the best PM ever.<br><br><span style='bottom:-8vw;position:absolute;right:0vw;font-size:1.7vw;font-family:Roboto-LightItalic'>- Nandhini Venkatesan</span>",
                         "Bhain ne phod diya.<br><br><span style='bottom:-8vw;position:absolute;right:0vw;font-size:1.7vw;font-family:Roboto-LightItalic'>- Zubear Ansari</span>"];
-const review_avatars = ["url('mayank_review_avatar.png')", "url('nandhini_review_avatar.png')", "url('zubear_review_avatar.png')"]
+const review_avatars = ["url('images/mayank_review_avatar.png')", "url('images/nandhini_review_avatar.png')", "url('images/zubear_review_avatar.png')"]
 var i = 0;
 
 function TextReviewCarousel()
