@@ -204,12 +204,45 @@ li a
   left: 10vw;
 }
 
+.relevant_exp
+{
+  position: absolute;
+  text-align: left;
+  top: calc(100% + 28vw);
+  left: 2vw;
+}
+
+.relevant_exp h2
+{
+  font-family:'Roboto-Regular';
+  font-size:2.5vw;
+}
+
 .supersourcing_exp_text
 {
   position: absolute;
   text-align: left;
-  top: calc(100% + 30vw);
+  top: calc(100% + 35vw);
   left: 2vw;
+}
+
+.supersourcing_exp_text h3
+{
+  font-family:'Roboto-Light';
+  font-size:2vw;
+}
+
+.supersourcing_exp_text span
+{
+  font-size:2vw;
+  color: #006df9;
+}
+
+#duration
+{
+  font-family:'Roboto-LightItalic';
+  font-size:1.5vw;
+  color: #ABABAB;
 }
 
 .ss_icon_1
@@ -218,10 +251,10 @@ li a
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
-  top: calc(100% + 40vw);
+  top: calc(100% + 35vw);
   height: 25vw;
   width: 25vw;
-  right: 2vw;
+  right: 4vw;
 }
 
 
@@ -395,8 +428,90 @@ li a
 @keyframes size_breath_in_out
 {
   0% {font-size: 6vw;}
-  50% {font-size: 8.5vw; color: #8d0e05;top: calc(135vw + 15vw);}
+  50% {font-size: 8.5vw; color: #8d0e05;top: calc(135vw + 10vw);}
   100% {font-size: 6vw;}
+}
+
+.reviews_section
+{
+  background-image: url(./images/review_section_wave_mobile.png);
+  background-size: contain;
+  top: 98vh;
+  height: 110vw;
+}
+
+.review_avatar_1
+{
+  width: 32vw;
+  height: 32vw;
+  top: 63vw;
+  left: 40vw;
+  right: 50vw;
+}
+
+.double_quote_start
+{
+  font-size: 20vw;
+  text-align: left;
+  top: 15vw;
+  right: 40vw;
+  left: 5vw;
+}
+
+.double_quote_end
+{
+  display: none;
+}
+
+.text_review
+{
+  font-size: 5vw;
+  top: 28vw;
+  right:10vw;
+  left: 15vw;
+}
+
+.relevant_exp
+{
+  position: absolute;
+  top: calc(100vh + 100vw);
+  left: 23vw;
+}
+
+.relevant_exp h2
+{
+  font-family:'Roboto-Regular';
+  font-size:6vw;
+}
+
+.supersourcing_exp_text
+{
+  top: calc(100vh + 115vw);
+  left: 2vw;
+}
+
+.supersourcing_exp_text h3
+{
+  font-family:'Roboto-Light';
+  font-size:5vw;
+}
+
+.supersourcing_exp_text span
+{
+  font-size:5vw;
+  color: #006df9;
+}
+
+#duration
+{
+  font-family:'Roboto-LightItalic';
+  font-size:3vw;
+  color: #ABABAB;
+}
+
+.ss_icon_1
+{
+  display: none;
 }
 
 }
