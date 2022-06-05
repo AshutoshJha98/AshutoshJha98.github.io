@@ -247,8 +247,7 @@ li a
 
 .ss_icon_1
 {
-  background-image: url("./images/supersourcing_exp_img.png");
-  position: absolute;
+  background-image: url("./images/supersourcing_exp_img.svg");
   background-size: contain;
   background-repeat: no-repeat;
   top: calc(100% + 35vw);
@@ -434,10 +433,12 @@ li a
 
 .reviews_section
 {
-  background-image: url(./images/review_section_wave_mobile.png);
-  background-size: contain;
-  top: 98vh;
-  height: 110vw;
+  background-image: url("./images/reveiw_section_wave_mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 95vh;
+  height: 105vw;
+  width: 100vw;
 }
 
 .review_avatar_1
