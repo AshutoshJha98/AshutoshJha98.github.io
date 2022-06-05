@@ -204,14 +204,24 @@ li a
   left: 10vw;
 }
 
-
-
-.brief_exp
+.supersourcing_exp_text
 {
   position: absolute;
   text-align: left;
-  top: calc(100% + 27vw);
+  top: calc(100% + 30vw);
   left: 2vw;
+}
+
+.ss_icon_1
+{
+  background-image: url("./images/supersourcing_exp_img.png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: calc(100% + 40vw);
+  height: 25vw;
+  width: 25vw;
+  right: 2vw;
 }
 
 
